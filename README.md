@@ -1,4 +1,4 @@
-# UnitySimpleCalendar
+# Unity Simple Calendar
 A simple UI calendar for unity
 
 ![Calendar](img/Screenshot.png)
@@ -26,6 +26,8 @@ A simple UI calendar for unity
 # Styling
 You can customize the calendar's day appearance with provided script styling options.
 Just change the colors in the script inspector.
+
+![Styles](img/Styles.png)
 
 
 
