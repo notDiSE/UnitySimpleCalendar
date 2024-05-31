@@ -26,14 +26,17 @@ A simple UI calendar for unity
       - You can also call the Calendar with preselected datetime. For example:
       ```csharp
       async void GetDateFromCalendar()
-      {
-         DateTime dateTime = await Calendar.GetCalendar(DateTime.Now);
-         Debug.Log($"selected dateTime: {dateTime}");
-      }
+    {
+        DateTime dateTime = await Calendar.GetCalendar(new DateTime(
+            0,0,0,0,0,1
+            ));
+        Debug.Log($"selected dateTime: {dateTime}");
+    }
       ```
       - When using preselected DateTime use the seconds to flag if the initial time is set
          - 0 Hours 0 Minutes 0 Seconds means the time has not been preselected
          - 0 Hours 0 Minutes 1 Second means the time has been preselected as 00:00
+      - in this example time is also preselected and will be enabled when calendar is shown
 
 # Styling
 You can customize the calendar's day appearance with provided script styling options.
