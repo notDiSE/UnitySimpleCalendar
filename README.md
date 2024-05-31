@@ -1,7 +1,7 @@
 # Unity Simple Calendar
 A simple UI calendar for unity
 
-![Calendar](img/Screenshot.png)
+![Calendar](img/Calendar.png)
 
 # Installation Guide
 
@@ -55,6 +55,8 @@ When the calendar returns dateTime it uses the seconds as a flag to if the time 
 # Testing the Calendar
 You can test the calendar using the **Test Open Calendar** button located at the bottom of the Calendar script.
 
+![Test](img/Test.png)
+
 # Styling
 You can customize the calendar's day appearance with provided script styling options.
 Just change the colors in the script inspector.
@@ -63,6 +65,12 @@ Just change the colors in the script inspector.
 
 # Changing the months
 You can change the names of the months in the inspector of the Calendar script.
+
+![Months](img/Months.png)
+
+# Used Package
+package used for rounded corners of the UI
+https://github.com/kirevdokimov/Unity-UI-Rounded-Corners
 
 
 
