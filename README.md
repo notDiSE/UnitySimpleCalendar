@@ -1,6 +1,6 @@
 # UnitySimpleCalendar
 A simple UI calendar for unity
-![Calendar](imag/Screenshot.png)
+![Calendar](img/Screenshot.png)
 
 # Installation Guide
 
