@@ -10,13 +10,15 @@ A simple UI calendar for unity
 
 # How to use
 1. Drag the Calendar prefab under a Canvas
-2. When the Calendar is in your scene you can call the calendar like this from any script ```csharp
+2. When the Calendar is in your scene you can call the calendar like this from any script
+```csharp
 async void GetDateFromCalendar()
 {
     DateTime dateTime = await Calendar.GetCalendar();
     Debug.Log($"selected dateTime: {dateTime}");
 }
-3. 
+```
+4. 
 
 
 
