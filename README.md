@@ -53,7 +53,7 @@ When the calendar returns dateTime it uses the seconds as a flag to if the time 
    - 0 Hours 0 Minutes 1 Second means the time has been selected as 00:00
          
 # Testing the Calendar
-You can test the calendar using the **Test Open Calendar** button located at the bottom of the Calendar script.t
+You can test the calendar using the **Test Open Calendar** button located at the bottom of the Calendar script.
 
 # Styling
 You can customize the calendar's day appearance with provided script styling options.
