@@ -31,7 +31,7 @@ A simple UI calendar for unity
          Debug.Log($"selected dateTime: {dateTime}");
       }
       ```
-      - When inputing initial preselected DateTime use the seconds to flag if the initial time is set
+      - When using preselected DateTime use the seconds to flag if the initial time is set
          - 0 Hours 0 Minutes 0 Seconds means the time has not been preselected
          - 0 Hours 0 Minutes 1 Second means the time has been preselected as 00:00
 
