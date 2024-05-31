@@ -23,14 +23,14 @@ A simple UI calendar for unity
    ```
    note that the method you call this from has to be async
 3.  **Variations**
-   - You can also call the Calendar with pre-selected datetime. For example:
-   ```csharp
-   async void GetDateFromCalendar()
-   {
-      DateTime dateTime = await Calendar.GetCalendar(DateTime.Now);
-      Debug.Log($"selected dateTime: {dateTime}");
-   }
-   ```
+      - You can also call the Calendar with pre-selected datetime. For example:
+      ```csharp
+      async void GetDateFromCalendar()
+      {
+         DateTime dateTime = await Calendar.GetCalendar(DateTime.Now);
+         Debug.Log($"selected dateTime: {dateTime}");
+      }
+      ```
    
 # Styling
 You can customize the calendar's day appearance with provided script styling options.
