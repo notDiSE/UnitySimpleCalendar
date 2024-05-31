@@ -9,16 +9,20 @@ A simple UI calendar for unity
 2. **Import**: Import the package into your project (tested on version 2021.3.14f1)
 
 # How to use
-1. Drag the Calendar prefab under a Canvas
-2. When the Calendar is in your scene you can call the calendar like this from any script
-```csharp
-async void GetDateFromCalendar()
-{
-    DateTime dateTime = await Calendar.GetCalendar();
-    Debug.Log($"selected dateTime: {dateTime}");
-}
-```
-4. 
+1. **Integrate the Calendar Prefab**:
+   - Drag the Calendar prefab into a Canvas within your scene.
+
+2. **Access the Calendar from a Script**:
+   - Once the Calendar is part of your scene, you can invoke it from any script using the following method:
+   ```csharp
+   async void GetDateFromCalendar()
+   {
+       DateTime dateTime = await Calendar.GetCalendar();
+       Debug.Log($"Selected date and time: {dateTime}");
+   }
+note that the method you call this from has to be async
+# Styling
+
 
 
 
