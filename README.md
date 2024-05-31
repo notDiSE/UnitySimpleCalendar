@@ -20,9 +20,12 @@ A simple UI calendar for unity
        DateTime dateTime = await Calendar.GetCalendar();
        Debug.Log($"Selected date and time: {dateTime}");
    }
-note that the method you call this from has to be async
+   ```
+   note that the method you call this from has to be async
+   
 # Styling
-
+You can customize the calendar's day appearance with provided script styling options.
+Just change the colors in the script inspector.
 
 
 
