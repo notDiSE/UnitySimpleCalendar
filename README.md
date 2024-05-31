@@ -48,9 +48,9 @@ A simple UI calendar for unity
 
 # Time/No Time
 The calendar gives the user the option to select time or not.
-   - When the calendar returns dateTime it uses the seconds as a flag to if the time has been selectd or not 
-         - 0 Hours 0 Minutes 0 Seconds means the time has not been selected
-         - 0 Hours 0 Minutes 1 Second means the time has been selected as 00:00
+When the calendar returns dateTime it uses the seconds as a flag to if the time has been selectd or not 
+   - 0 Hours 0 Minutes 0 Seconds means the time has not been selected
+   - 0 Hours 0 Minutes 1 Second means the time has been selected as 00:00
          
 # Testing the Calendar
 You can test the calendar using the **Test Open Calendar** button located at the bottom of the Calendar script.t
