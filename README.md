@@ -13,7 +13,7 @@ A simple UI calendar for unity
    - Drag the Calendar prefab into a Canvas within your scene.
 
 2. **Access the Calendar from a Script**:
-   - Once the Calendar is part of your scene, you can invoke it from any script using the following method:
+   - Once the Calendar is part of your scene, you can invoke it from any script using the following example method:
    ```csharp
    async void GetDateFromCalendar()
    {
